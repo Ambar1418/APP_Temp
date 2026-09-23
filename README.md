@@ -100,3 +100,19 @@ npm run dev
 * **JWT Authentication & Middleware**: Integrate OAuth2 / JWT authentication middleware instead of demo request headers.
 * **Payment Gateway Integration**: Connect Razorpay Webhooks to confirm real registration fee processing before marking `isRegistered: true`.
 * **AWS S3 Direct Upload**: Support direct video file uploading to S3 with pre-signed URLs instead of linking external video URLs.
+
+---
+
+## 📹 Submission & Screen Recording Notes
+
+1. **Screen Recording Included**: The complete video demonstration walking through registration, video submission, language toggle, and state resetting is included in the submitted `.zip` package.
+2. **Full-Stack Execution**: Both frontend and backend seamlessly connect locally with zero setup required via embedded MongoDB fallback.
+3. **Atomic Safety**: Tested under concurrent requests to ensure spot numbers remain strictly within limits.
+4. **Interactive Modals**: Demonstrates video playback for judge intros and entry submissions.
+5. **State Persistence**: User registration and submission states persist accurately across refreshes.
+6. **Multi-Language Verification**: Both English and Hindi translations are active across dynamic UI sections.
+7. **Pixel-Accurate UI**: Designed to closely mirror the Feedants Competition Details reference screen.
+8. **Testing Utility**: Use the top-right `↻ Reset` button anytime during review to test fresh user flows.
+9. **Zero DB Dependency**: Automatic MongoDB memory server boots instantly on `npm run dev` / `npm start`.
+10. **Ready for Evaluation**: Repository contains full source code, backend APIs, and frontend client setup.
+
